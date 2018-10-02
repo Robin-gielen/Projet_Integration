@@ -1,4 +1,4 @@
-﻿body{
+body{
     background: #EBEBEB;
 	font-family: "Comic Sans MS";
 }
@@ -35,6 +35,33 @@ form {
     background: #fff;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 	float : right;
+}
+#equipe{
+	width:75%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	display : block;
+	margin: 30px;
+}
+#presentationWeb{
+	width:75%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	display : inline-block;
+	margin: 30px;
+}
+#presentationApp{
+	width:75%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	display : inline-block;
+	margin: 30px;
 }
 
 
@@ -73,4 +100,3 @@ a:link{
 a:hover {
     color: red;
 }
-
