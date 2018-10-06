@@ -1,0 +1,119 @@
+@font-face {
+	font-family: 'font';
+	src: url('POLICE/Elcsa.otf');
+}
+
+body {
+	font-family: font;
+	font-size: 130%;
+	background-image: url(fond_2.jpg);
+	background-repeat: no-repeat;
+    background-size: 100%;
+	color: white;
+}
+
+#presentation {
+	float: left;
+	width: 25%;
+	height:34em;
+	background-color: black;
+	border-radius: 20px;
+	opacity: 0.75;
+}
+
+#presentation:hover {
+	opacity: 0.9;
+}
+
+#equipe {
+	padding: 10%
+}
+
+#presentationWeb {
+	padding: 10%
+}
+
+#presentationApp {
+	padding: 10%
+}
+
+
+#smartscanbc {
+	width: 55%;
+	position: absolute;
+	top: -8em;
+	padding: auto;
+	margin: auto;
+	left: 21em;
+}
+
+
+#connexion{
+	width:8%;
+    padding: 30px;
+    background-color: black;
+	border-radius: 20px;
+	opacity: 0.75;
+	float : right;
+	position: absolute;
+	right: 7px;
+	top: 7px;
+	text-align: center;
+}
+
+#connexion:hover {
+	opacity: 0.9;
+}
+
+a {
+	color: white;
+	margin-top: 2%;
+}
+
+
+#annonce {
+	float: right;
+	width: 72%;
+	background-color: black;
+	opacity: 0.75;
+	border-radius: 20px;
+	position: absolute;
+	left: 27%;
+	top: 25%;
+}
+#annonce:hover {
+	opacity: 0.9;
+}
+
+#card_1 {
+	width: 20%;
+	margin: 25px;
+}
+#card_2 {
+	width: 20%;
+	margin: 25px;
+}
+#card_3 {
+	width: 20%;
+	margin: 25px;
+}
+#card_4 {
+	width: 20%;
+	margin: 25px;
+}
+#card_5 {
+	width: 20%;
+	margin: 25px;
+}
+#card_6 {
+	width: 20%;
+	margin: 25px;
+}
+#card_7 {
+	width: 20%;
+	margin: 25px;
+}
+#card_8 {
+	width: 20%;
+	margin: 25px;
+}
