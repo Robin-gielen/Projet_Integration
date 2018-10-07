@@ -10,9 +10,15 @@ body {
 	background-repeat: no-repeat;
     background-size: 100%;
 	color: white;
+	overflow: auto;
 }
 #h1{
 	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+    #smartscanbc {
+        background-color: lightblue;
+    }
 }
 
 #presentation {
@@ -22,6 +28,7 @@ body {
 	background-color: black;
 	border-radius: 20px;
 	opacity: 0.75;
+	overflow: auto;
 }
 
 #presentation:hover {
@@ -173,4 +180,23 @@ form {
 }
 #inscription{
 	text-align:center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
 }
